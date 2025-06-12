@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    max-width: 300vh;
+    display: flex;
+    justify-content: center;
+    
+    
+
+}
+
+header {
+    background: #17171A;
+    display: flex;
+    height: 30vh;
+    width: 100%;
+    max-width: 100vh;
+    max-width: 250vh;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column wrap;
+    gap: 6vh;
+    
+}
+.codeLab {
+   color: #E07B67;
+   font-family: "Space Grotesk", sans-serif;
+   font-size: 40px;
+   font-weight: 500;
+   line-height: 100%;
+   letter-spacing: 0%;
+   margin-top: 2vh;
+    
+}
+#paiPesquisa {
+    width: 50%;
+}
+span {
+    color: #FFFFFF;
+}
+.pesquisa {
+    width: 100vh;
+    background-color: #202024;
+    height: 4vh;
+    border-radius: 8px;
+    border: 2px;
+}
